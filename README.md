@@ -5,13 +5,13 @@
 1.  **Build the Docker image:**
 
     ```sh
-    docker build -t UNI-ML-EXAM .
+    docker build -t UNI-ML-EXAM-main .
     ```
 
 2.  **Run the Docker container:**
 
     ```sh
-    docker run -p 80:80 UNI-ML-EXAM
+    docker run -p 80:80 UNI-ML-EXAM-main
     ```
 
 3.  **Access the API:** - The API will be accessible at `http://localhost:80` - Use Postman to send a POST request to `http://localhost:80/predict` with the following JSON body:
